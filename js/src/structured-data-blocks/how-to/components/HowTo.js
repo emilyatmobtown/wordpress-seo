@@ -414,10 +414,11 @@ export default class HowTo extends Component {
 			return "";
 		}
 
-		const newDuration = duration.replace( /^[0]+/, "" );
-		if ( newDuration === "" ) {
-			return 0;
+		if ( duration == "00" || duration == '0' ) {
+			return duration;
 		}
+
+		const newDuration = duration.replace( /^[0]+/, "" );
 
 		if ( maxDuration !== null ) {
 			return Math.min( Math.max( 0, parseInt( newDuration, 10 ) ), maxDuration );
