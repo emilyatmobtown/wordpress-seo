@@ -4624,13 +4624,6 @@ eslint-config-yoast@^5.0.16:
   dependencies:
     js-yaml "^3.6.0"
 
-eslint-config-yoast@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/eslint-config-yoast/-/eslint-config-yoast-5.0.7.tgz#0dbef1e65963de834b543a1f18ca8ccd890d8ae0"
-  integrity sha512-uvpPQt8t1flXrBF4MV89gItKff9+ps2wdzl2GLVPdS+AFbn1eQDRQIjNk8WFoOcYNxfZLOceHO+gKloYkBW6pA==
-  dependencies:
-    js-yaml "^3.6.0"
-
 eslint-plugin-jsx-a11y@^6.1.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.2.1.tgz#4ebba9f339b600ff415ae4166e3e2e008831cf0c"
